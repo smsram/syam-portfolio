@@ -51,10 +51,10 @@ ScrollReveal({
   duration:2000,
   delay:280,
 })
-ScrollReveal().reveal('.home-content, .Footer, .heading',{origin:'top'});
+ScrollReveal().reveal('.home-content, .heading',{origin:'top'});
 ScrollReveal().reveal('.home-img, .Contact, .contact form, .projects-content',{origin:'bottom'});
 ScrollReveal().reveal('.home-content h1,.contact-headding, .services-passage, .about-img, .projects-headding',{origin:'left'});
-ScrollReveal().reveal('.home-content p, .Footer, .contact-content, .services-headding, .services-content, .about-content, .projects-passage',{origin:'right'});
+ScrollReveal().reveal('.home-content p, .contact-content, .services-headding, .services-content, .about-content, .projects-passage',{origin:'right'});
 
 // Menu
 const sections = document.querySelectorAll("section");
