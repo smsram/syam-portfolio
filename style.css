@@ -16,6 +16,7 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: background-color 0.5s, color 0.5s;
+    width: 100%;
 }
 :root{
     --bg-color: black;
@@ -26,7 +27,7 @@ body{
 }
 /* Navbar */
 .banner{
-    max-width: 100vw;
+    width: 100%;
     height: 4rem;
     display: flex;
     justify-content: center;
@@ -62,6 +63,7 @@ body{
     position: absolute;
     display: inline-flex;
     transition: 0.5s ease;
+    font-size: 1.4em;
 }
 .navbar a {
     position: relative;
@@ -213,6 +215,7 @@ body{
     text-decoration: none;
     color: var(--text-color);
     padding: 2rem;
+    font-size: 1.4em;
 }
 .menu-link:hover{
     width: 100%;
@@ -1036,9 +1039,6 @@ section{
 
 
 @media(max-width: 768px){
-    .banner{
-        width: 100vw;
-    }
     .banner .Label{
         width: 2rem;
         height: 2rem;
@@ -1129,11 +1129,6 @@ section{
         display: none;
     }
     .Footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 2rem 10%;
-        font-size: 1.08em;
+        width: auto;
     }
 }
